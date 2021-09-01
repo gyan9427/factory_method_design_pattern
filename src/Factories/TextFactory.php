@@ -3,6 +3,7 @@
 namespace Src\Factories ;
 
 use Src\Creator;
+use Src\Products\TextProduct;
 
 class TextFactory extends Creator
 {
