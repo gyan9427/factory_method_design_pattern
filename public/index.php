@@ -1,5 +1,8 @@
 <?php
 
-include "../vendor/autoload.php";
+ini_set('display_errors', 1);
+include_once "../vendor/autoload.php";
 
-echo "hello";
+use Src\main\Client;
+
+$worker = new Client();
