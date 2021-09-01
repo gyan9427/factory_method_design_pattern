@@ -2,7 +2,7 @@
 
 namespace Src\Factories ;
 
-use Src\Creator;
+use Src\main\Creator;
 use Src\Products\GraphicProduct;
 
 class GraphicFactory extends Creator
