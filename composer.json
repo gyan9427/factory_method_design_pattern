@@ -1,0 +1,19 @@
+{
+    "name": "gyan/factorymethod",
+    "description": "This is a project designed to understand factory method in design patterns",
+    "authors": [
+        {
+            "name": "gyan",
+            "email": "gyan9427@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "src\\":"src/"
+        }
+    },
+    "scripts": {
+        "server":"php -S 127.0.0.1:8000 -t public"
+    }
+}
